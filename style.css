@@ -1,18 +1,20 @@
 body {
     background-color: black;
     color: white;
-    margin: 0px;
+    margin: 0 auto;
 
 }
 header{
     width: 100%;
     height: 250px;
+
 }
 .divBusca {
     display: inline;
     /*float: right;*/
     position: fixed;
     left: 500px;
+    padding: 60px;
 
     }
     #txtBusca {
@@ -22,16 +24,33 @@ header{
     display: inline;
     float: right;
     margin-right: 30px;
+    padding-top:  10px;
+    border: solid 1px #00ffff;
+    border-radius: 5px;
+    top: 25px;
+    left: 40%;
+    color: #00ffff;
+    font-style: italic;
+    
 }
 .divMatricula {
     display: inline;
     float: right;
     margin-right: 50px;
+    padding: 10px;
+    border: solid 1px #00ffff;
+    border-radius: 5px;
+    color: #00ffff;
+    font-style: italic;
 }
 .mergulhe {
     display: inline;
     float: left;
     width: 35%;
+    color: #00ffff;
+    font-style: italic;
+    margin-left: 50px;
+
 
 }
 main {
@@ -53,15 +72,27 @@ section {
 section div{
     display: inline;
     border: solid 1px;
-    border-radius: 5px;
+    border-radius: 15px;
     margin: 5px;
     padding: 30px;
+    color: #00ffff;
+    font-style: italic;
+    margin-left: 50px;
+    margin-right: 0 ;
+    padding-top: 50px;
+    
+    
 
+}
+a{
+    color: #00ffff;
+    text-decoration: none;
 }
 footer {
     width: 100%;
     height: 70px;
-    border: solid 1px green;
+    border: solid 1px #00ffff;
+    color: #00ffff;
 
 }
 footer ul li {
@@ -69,4 +100,25 @@ footer ul li {
     width: 100%;
     margin: 5px;
     padding: 100px;
+    font-style: italic;
+    margin-right: auto;
+}
+.imgFace {
+
+    display: inline;
+    float: right;
+    padding-top: 10px;
+    margin-right: 50px;
+}
+.imgInstagram {
+    display: inline;
+    float: right;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+.imgWhatsapp {
+    display: inline;
+    float: right;
+    padding-top: 10px;
+    margin-right: 15px;
 }
